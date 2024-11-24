@@ -1,7 +1,5 @@
 "use client";
 import React, { useRef } from "react";
-import { spectralBridgeRegular } from "@/fonts/font";
-import Image1 from "../../../public/images/general/home/about_image4.jpg";
 import Image2 from "../../../public/images/general/home/about_image3.webp";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
