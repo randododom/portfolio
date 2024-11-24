@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import Top1 from "../../../public/images/services/top1.png";
 import Top2 from "../../../public/images/services/top2.png";
-import Bottom1 from "../../../public/images/services/bottom1.png";
+import Bottom1 from "public/images/services/bottom1.png";
 import Bottom2 from "../../../public/images/services/bottom2.png";
 import Bottom3 from "../../../public/images/services/bottom3.jpg";
 import ServicesList from "./ServicesList";
