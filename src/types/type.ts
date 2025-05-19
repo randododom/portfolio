@@ -15,7 +15,6 @@ export type Projects = {
   github?: string;
   duration?: string;
   description1?: string[];
-  description2?: string[];
   mainImage?: StaticImageData;
   mainImageAlt?: string | undefined;
   introImage?: StaticImageData;

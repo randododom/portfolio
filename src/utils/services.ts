@@ -34,7 +34,6 @@ const services = [
             "SQLite",
             "SQL Server",
             "Express.js",
-            "Firebase",
             "Docker",
             "Linux",
             "Postman",
@@ -48,7 +47,6 @@ const services = [
         technologies: [
             "Debian",
             "Ubuntu",
-            "Red Hat",
             "VirtualBox",
             "VWware Workstation",
             "Docker",
@@ -66,10 +64,11 @@ const services = [
             "Baccalauréat",
             "BTS SIO SISR",
             "Certification RGPD",
+            "IBM Cloud",
             "Certification CISCO",
             "Google IT Support",
-            "Google Security",
-            "MOOC"
+            "Google CyberSecurity",
+  
         ],
         description: "Les certifications me permettent de valider mes compétences et de rester à jour dans un secteur en constante évolution. Elles témoignent de mon engagement à maîtriser les bonnes pratiques et à offrir des solutions fiables. Être toujours à l’affût des nouveautés technologiques me permet d'anticiper les changements, d’adapter mes méthodes, et d’assurer une expertise durable. Cet apprentissage continu me positionne comme un professionnel capable de répondre aux exigences actuelles et futures.",
     },

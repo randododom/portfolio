@@ -47,12 +47,9 @@ const projects = [
     website: undefined,
     duration: "1 mois",
     description1: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante id dui fermentum rhoncus. Proin tempus fermentum felis, id ultricies magna posuere sit amet. Fusce efficitur nisl sed libero hendrerit, vitae varius magna fermentum. Suspendisse potenti. Cras suscipit dui eget sapien ornare, at vestibulum justo consectetur. Aenean dictum neque sed sapien elementum, ac volutpat risus scelerisque. Integer ut tincidunt nibh. In vulputate ultricies sem, et volutpat arcu gravida sed. Praesent efficitur purus in fringilla fermentum. Etiam posuere felis justo, id sodales ipsum scelerisque ac. Mauris laoreet, enim ut scelerisque volutpat, turpis nulla sagittis lorem, a cursus ligula sapien id lectus. Duis tristique felis eu orci aliquet, sed posuere sapien efficitur.",
-      "Ipsam quidem rem veritatis architecto, dignissimos quasi similique aliquid ex eaque numquam laboriosam, quis adipisci tempore molestias. Laudantium modi expedita ea magnam provident. Nostrum aliquam dolorem fuga atque est consequatur repellendus quas, vel ab, aperiam ad accusamus fugiat iste sunt distinctio. Culpa, voluptatibus ullam. Officia voluptatum dignissimos rerum nulla quod quas ipsum vitae adipisci alias, harum amet, eius reprehenderit pariatur. Cum omnis reprehenderit atque error est iure aliquam. Quisquam possimus hic, animi numquam. Iusto, assumenda nesciunt aperiam officiis ipsum vitae.",
-    ],
-    description2: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet efficitur felis, eget tincidunt eros convallis sed. Integer volutpat mauris quis felis malesuada, at luctus arcu pretium. Nulla viverra feugiat eros vel consequat. Morbi gravida venenatis risus, at cursus erat euismod eget. Suspendisse potenti. Proin eu venenatis odio. Duis porttitor vestibulum libero, in auctor ligula. Nullam convallis orci a ligula pretium, at ultricies sem facilisis. Aenean fringilla ipsum ut arcu interdum luctus. Ut nec eros lorem. Donec ullamcorper vel lectus in vehicula. Phasellus ultricies nisi ut felis pharetra efficitur. Nullam non diam vitae lacus bibendum elementum. Phasellus vitae diam id elit commodo feugiat. Nulla euismod.",
-      "",
+      "Dans le cadre de ce projet, nous avons utilisé l’outil Jira pour simuler un environnement de gestion agile. Le projet était organisé en tickets et réparti en plusieurs sprints. Chaque membre se voyait attribuer des rôles définis (chef de projet, administrateur réseau, testeur), et des tâches spécifiques à valider dans un tableau de bord Kanban. La progression du projet était suivie à l’aide d’échéances, de sous-tâches et de critères d’acceptation. Cette approche nous a permis de découvrir l’importance de la planification, de la documentation et de la communication dans un projet informatique structuré.",
+      "L’objectif principal était de sécuriser une machine Ubuntu via l’installation et la configuration du pare-feu UFW dans une VM VirtualBox. Après avoir comparé différentes solutions (iptables, firewalld), UFW a été retenu pour sa simplicité. Nous avons autorisé le port SSH, bloqué les connexions inutiles, et testé les règles à l’aide de Nmap et Wireshark. Un problème de coupure SSH a été résolu grâce à une intervention en local, renforçant notre compréhension des priorités de règles.",
+      "Ce projet m’a permis de développer à la fois mes compétences techniques en sécurité réseau et mes capacités de gestion de projet en environnement agile avec Jira.",
     ],
     size: "w-[10vw]",
     position: "md:justify-end",
@@ -88,12 +85,9 @@ const projects = [
     website: undefined,
     duration: "1 mois",
     description1: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante id dui fermentum rhoncus. Proin tempus fermentum felis, id ultricies magna posuere sit amet. Fusce efficitur nisl sed libero hendrerit, vitae varius magna fermentum. Suspendisse potenti. Cras suscipit dui eget sapien ornare, at vestibulum justo consectetur. Aenean dictum neque sed sapien elementum, ac volutpat risus scelerisque. Integer ut tincidunt nibh. In vulputate ultricies sem, et volutpat arcu gravida sed. Praesent efficitur purus in fringilla fermentum. Etiam posuere felis justo, id sodales ipsum scelerisque ac. Mauris laoreet, enim ut scelerisque volutpat, turpis nulla sagittis lorem, a cursus ligula sapien id lectus. Duis tristique felis eu orci aliquet, sed posuere sapien efficitur.",
-      "Ipsam quidem rem veritatis architecto, dignissimos quasi similique aliquid ex eaque numquam laboriosam, quis adipisci tempore molestias. Laudantium modi expedita ea magnam provident. Nostrum aliquam dolorem fuga atque est consequatur repellendus quas, vel ab, aperiam ad accusamus fugiat iste sunt distinctio. Culpa, voluptatibus ullam. Officia voluptatum dignissimos rerum nulla quod quas ipsum vitae adipisci alias, harum amet, eius reprehenderit pariatur. Cum omnis reprehenderit atque error est iure aliquam. Quisquam possimus hic, animi numquam. Iusto, assumenda nesciunt aperiam officiis ipsum vitae.",
-    ],
-    description2: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet efficitur felis, eget tincidunt eros convallis sed. Integer volutpat mauris quis felis malesuada, at luctus arcu pretium. Nulla viverra feugiat eros vel consequat. Morbi gravida venenatis risus, at cursus erat euismod eget. Suspendisse potenti. Proin eu venenatis odio. Duis porttitor vestibulum libero, in auctor ligula. Nullam convallis orci a ligula pretium, at ultricies sem facilisis. Aenean fringilla ipsum ut arcu interdum luctus. Ut nec eros lorem. Donec ullamcorper vel lectus in vehicula. Phasellus ultricies nisi ut felis pharetra efficitur. Nullam non diam vitae lacus bibendum elementum. Phasellus vitae diam id elit commodo feugiat. Nulla euismod.",
-      "",
+      "Ce projet a été pensé pour créer une application web permettant de suivre les incidents sur le réseau d'une entreprise. J'avais plusieurs rôles : chef de projet, développeur backend et frontend. L'application devait permettre aux techniciens de déclarer un problème réseau, et aux administrateurs de consulter, trier, et gérer ces incidents. J’ai organisé les différentes étapes du projet, réparti les tâches, et planifié les fonctionnalités. L’idée était d’avoir un outil simple à utiliser, pratique au quotidien pour une équipe informatique interne.",
+      "J’ai utilisé React.js pour créer l’interface, Node.js et Express.js pour gérer les échanges entre le site et la base de données, et MySQL pour stocker les tickets. Le style a été fait avec Tailwind CSS. Un système de connexion permettait de séparer l’espace admin et l’espace technicien. J’ai aussi commencé à tester Docker pour rendre l’installation plus simple plus tard. Même si ce projet reste en cours, il m’a permis d’apprendre à mieux structurer un vrai site avec plusieurs utilisateurs.",
+      "Ce projet m’a donné envie d’aller plus loin dans le développement web et de créer des outils vraiment utiles dans un contexte professionnel.",
     ],
     size: "w-[10vw]",
     position: "md:justify-start",
@@ -138,12 +132,9 @@ const projects = [
     website: undefined,
     duration: "3 semaines",
     description1: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum.",
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor",
-    ],
-    description2: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante",
-      "",
+      "Durant ce projet de 3 semaines, j’ai conçu et sécurisé l’architecture réseau complète d’une entreprise virtuelle en utilisant Cisco Packet Tracer. Le projet reposait sur la segmentation du réseau via des VLANs (Enseignants, Étudiants, Administration, Production) et leur interconnexion grâce à un switch de niveau 3. J’ai configuré des ACLs (listes de contrôle d’accès) pour restreindre les flux entre les sous-réseaux, intégré un firewall ASA pour la sécurité périmétrique et mis en place un serveur DHCP centralisé pour l’attribution des IPs. En tant que Chef de projet, Administrateur réseau et Technicien, j’ai veillé à l’efficacité, la cohérence et la sécurité du réseau tout en assurant son accessibilité via des tests avec ping et traceroute.",
+      "Le projet utilisait les équipements suivants : Switchs L2 (2960) pour la distribution, Switch L3 (3650) pour le routage inter-VLAN, un Routeur 2911, et un Cisco ASA 5506-X pour la sécurité. Chaque VLAN (192.168.10.0/24 à 192.168.40.0/24) était isolé et configuré en mode access, avec des ports trunk pour l’interconnexion. Le switch L3 assurait le routage, le DHCP attribuait les IPs par pool, et les routes statiques étaient définies jusqu’au firewall, qui gérait ensuite la sortie vers l’extérieur. Des ACLs ont été ajoutées pour contrôler les communications internes.",
+      "Ce projet m’a permis de développer des compétences solides en conception d’architecture réseau, en sécurisation des flux, ainsi qu’en configuration avancée sur Cisco. Il m’a également donné l’occasion de pratiquer la logique réseau sur un plan professionnel complet et cohérent.",
     ],
     size: "w-[20vw]",
     marginBottom: "mb-[20vh]",
@@ -151,7 +142,7 @@ const projects = [
     // padding: "translateX-[-8vw]",
     mainImage: CISCOMain,
     introImage: CISCOIntro,
-    imagesPortrait: [
+   /*  imagesPortrait: [
       { 
         image: CISCOMiddle1,
         alt: "PROJET3 IMAGE 1" 
@@ -166,7 +157,7 @@ const projects = [
         image: CISCOLandscape1,
         alt: "PROJET3 IMAGE 3",
       },
-    ],
+    ], */
   },
   {
     // title: "Système de Détection et Prévention d'intrusions",
@@ -191,15 +182,13 @@ const projects = [
     position: "md:justify-end",
     // padding: 'translateX-[10vw]',
     description1: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum.",
-      "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio",
-    ],
-    description2: [
-      "Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida",
+      "Ce projet consistait à mettre en place un système de détection et de prévention des intrusions sur le réseau d’une entreprise, afin d’assurer une meilleure sécurité face aux attaques potentielles. L’outil principal utilisé est Snort, qui permet d’analyser le trafic réseau pour détecter des comportements suspects. Une partie importante du projet a été la compréhension de la différence entre IDS et IPS, et comment Snort peut fonctionner dans les deux modes. Après avoir installé Snort sur un serveur Linux, j’ai configuré les règles adaptées à l’environnement réseau, en créant un compte de service dédié avec des permissions restreintes pour limiter les risques liés à l’exécution du logiciel.",
+      "J’ai également configuré la gestion des logs afin de centraliser et sécuriser les alertes générées par Snort, tout en automatisant certaines tâches avec des scripts Bash. Pour tester l’efficacité du système, j’ai utilisé des outils comme Nmap pour simuler des scans réseau, et Wireshark pour analyser les paquets et vérifier que Snort détectait correctement les intrusions. La configuration des règles et des permissions a été ajustée pour réduire les faux positifs et optimiser la sécurité globale du réseau. Ce projet m’a permis de mieux comprendre les mécanismes de surveillance réseau, ainsi que la gestion sécurisée d’un service critique en entreprise.",
+      "En conclusion, ce projet a été une excellente opportunité pour maîtriser les concepts d’IDS/IPS et leur mise en œuvre pratique via Snort. La capacité à configurer un système robuste de détection et prévention d’intrusions, avec un suivi précis des événements et une bonne gestion des droits, est essentielle pour garantir la protection des infrastructures réseau en entreprise.",
     ],
     mainImage: SystemeMain,
     introImage: SystemeIntro,
-    imagesPortrait: [
+/*     imagesPortrait: [
       { 
         image: SystemeMiddle1,
         alt: "PROJET4 IMAGE1" 
@@ -214,7 +203,7 @@ const projects = [
         image: SystemeLandscape1,
         alt: "PROJET4 IMAGE3" 
       },
-    ],
+    ], */
   },
 ];
 
