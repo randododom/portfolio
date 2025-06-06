@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import PrevNext from "./PrevNext";
 import Heading from "../Heading";
 import Banner from "../Banner";
-
+import PdfModalButton from "../PdfModalButton";
 function MainPage({
   project,
   index,
@@ -232,11 +232,11 @@ function MainPage({
             </div>
             <div className="group flex items-center gap-2">
               <p className="text-[14px] sm:text-[15px] md:text-[16px]">
-                  <a
-                     href={project?.github ? `https://github.com/${project.github}` : "#"}
-                    target="_blank">
-                    Visite Github
-                  </a>
+                <a
+                  href={project?.github ? `https://github.com/${project.github}` : "#"}
+                  target="_blank">
+                  Visite Github
+                </a>
               </p>
               <div className="group-hover:translate-x-1 duration-300">
                 <ArrowUpRightIcon className="w-4" strokeWidth={1} />
@@ -299,54 +299,61 @@ function MainPage({
       <section>
         {project?.imagesLandscape
           ? project.imagesLandscape.map((img, i) => {
-              return (
-                <div key={img.alt} className="w-full object-cover mb-8">
-                  <Image
-                    src={img.image}
-                    alt={img.alt}
-                    className="w-full"
-                    placeholder={
-                      img.image.src.split("/").pop()?.split(".").pop() === "gif"
-                        ? "empty"
-                        : "blur"
-                    }
-                    unoptimized={
-                      img.image.src.split("/").pop()?.split(".").pop() ===
-                        "gif" ?? false
-                    }
-                  />
-                </div>
-              );
-            })
+            return (
+              <div key={img.alt} className="w-full object-cover mb-8">
+                <Image
+                  src={img.image}
+                  alt={img.alt}
+                  className="w-full"
+                  placeholder={
+                    img.image.src.split("/").pop()?.split(".").pop() === "gif"
+                      ? "empty"
+                      : "blur"
+                  }
+                  unoptimized={
+                    img.image.src.split("/").pop()?.split(".").pop() ===
+                    "gif" ?? false
+                  }
+                />
+              </div>
+            );
+          })
           : null}
       </section>
       <section className="">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {project?.imagesPortrait
             ? project.imagesPortrait.map((img, i) => {
-                return (
-                  <div key={img.alt} className="w-full sm:max-h-[105vh] object-cover">
-                    <Image
-                      src={img.image}
-                      alt={img.alt}
-                      className="w-full h-full"
-                      placeholder={
-                        img.image.src.split("/").pop()?.split(".").pop() ===
+              return (
+                <div key={img.alt} className="w-full sm:max-h-[105vh] object-cover">
+                  <Image
+                    src={img.image}
+                    alt={img.alt}
+                    className="w-full h-full"
+                    placeholder={
+                      img.image.src.split("/").pop()?.split(".").pop() ===
                         "gif"
-                          ? "empty"
-                          : "blur"
-                      }
-                      unoptimized={
-                        img.image.src.split("/").pop()?.split(".").pop() ===
-                          "gif" ?? false
-                      }
-                    />
-                  </div>
-                );
-              })
+                        ? "empty"
+                        : "blur"
+                    }
+                    unoptimized={
+                      img.image.src.split("/").pop()?.split(".").pop() ===
+                      "gif" ?? false
+                    }
+                  />
+                </div>
+              );
+            })
             : null}
         </div>
       </section>
+      {project && project.pdf && project.pdfThumbnail && (
+        <PdfModalButton
+          pdf={project.pdf}
+          thumbnail={project.pdfThumbnail}
+          title={project.title}
+        />
+      )}
       <PrevNext index={index} />
     </>
   );

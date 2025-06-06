@@ -12,7 +12,7 @@ import AppliOutro1 from "../../public/images/projet2/imagesOutro2.png";
 
 import CISCOMiddle1 from "../../public/images/projet3/imagesMiddle1.png";
 import CISCOMain from "../../public/images/projet3/imagesMiddle3.png";
-import CISCOIntro from "../../public/images/projet3/introImage.jpg";
+import CISCOIntro from "../../public/images/projet3/ciscointro.png";
 import CISCOLandscape1 from "../../public/images/projet3/imagesLandscape1.png";
 import CISCOOutro1 from "../../public/images/projet3/imagesOutro2.png";
 
@@ -47,13 +47,12 @@ const projects = [
     website: undefined,
     duration: "1 mois",
     description1: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante id dui fermentum rhoncus. Proin tempus fermentum felis, id ultricies magna posuere sit amet. Fusce efficitur nisl sed libero hendrerit, vitae varius magna fermentum. Suspendisse potenti. Cras suscipit dui eget sapien ornare, at vestibulum justo consectetur. Aenean dictum neque sed sapien elementum, ac volutpat risus scelerisque. Integer ut tincidunt nibh. In vulputate ultricies sem, et volutpat arcu gravida sed. Praesent efficitur purus in fringilla fermentum. Etiam posuere felis justo, id sodales ipsum scelerisque ac. Mauris laoreet, enim ut scelerisque volutpat, turpis nulla sagittis lorem, a cursus ligula sapien id lectus. Duis tristique felis eu orci aliquet, sed posuere sapien efficitur.",
-      "Ipsam quidem rem veritatis architecto, dignissimos quasi similique aliquid ex eaque numquam laboriosam, quis adipisci tempore molestias. Laudantium modi expedita ea magnam provident. Nostrum aliquam dolorem fuga atque est consequatur repellendus quas, vel ab, aperiam ad accusamus fugiat iste sunt distinctio. Culpa, voluptatibus ullam. Officia voluptatum dignissimos rerum nulla quod quas ipsum vitae adipisci alias, harum amet, eius reprehenderit pariatur. Cum omnis reprehenderit atque error est iure aliquam. Quisquam possimus hic, animi numquam. Iusto, assumenda nesciunt aperiam officiis ipsum vitae.",
+      "Dans le cadre de ce projet, nous avons utilisé l’outil Jira pour simuler un environnement de gestion agile. Le projet était organisé en tickets et réparti en plusieurs sprints. Chaque membre se voyait attribuer des rôles définis (chef de projet, administrateur réseau, testeur), et des tâches spécifiques à valider dans un tableau de bord Kanban. La progression du projet était suivie à l’aide d’échéances, de sous-tâches et de critères d’acceptation. Cette approche nous a permis de découvrir l’importance de la planification, de la documentation et de la communication dans un projet informatique structuré.",
+      "L’objectif principal était de sécuriser une machine Ubuntu via l’installation et la configuration du pare-feu UFW dans une VM VirtualBox. Après avoir comparé différentes solutions (iptables, firewalld), UFW a été retenu pour sa simplicité. Nous avons autorisé le port SSH, bloqué les connexions inutiles, et testé les règles à l’aide de Nmap et Wireshark. Un problème de coupure SSH a été résolu grâce à une intervention en local, renforçant notre compréhension des priorités de règles.",
+      "Ce projet m’a permis de développer à la fois mes compétences techniques en sécurité réseau et mes capacités de gestion de projet en environnement agile avec Jira.",
     ],
-    description2: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet efficitur felis, eget tincidunt eros convallis sed. Integer volutpat mauris quis felis malesuada, at luctus arcu pretium. Nulla viverra feugiat eros vel consequat. Morbi gravida venenatis risus, at cursus erat euismod eget. Suspendisse potenti. Proin eu venenatis odio. Duis porttitor vestibulum libero, in auctor ligula. Nullam convallis orci a ligula pretium, at ultricies sem facilisis. Aenean fringilla ipsum ut arcu interdum luctus. Ut nec eros lorem. Donec ullamcorper vel lectus in vehicula. Phasellus ultricies nisi ut felis pharetra efficitur. Nullam non diam vitae lacus bibendum elementum. Phasellus vitae diam id elit commodo feugiat. Nulla euismod.",
-      "",
-    ],
+    pdf: undefined,
+    pdfThumbnail: undefined,
     size: "w-[10vw]",
     position: "md:justify-end",
     marginBottom: "mb-[20vh]",
@@ -67,6 +66,7 @@ const projects = [
       },
 
     ],
+  
 
   },
  
@@ -88,13 +88,12 @@ const projects = [
     website: undefined,
     duration: "1 mois",
     description1: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante id dui fermentum rhoncus. Proin tempus fermentum felis, id ultricies magna posuere sit amet. Fusce efficitur nisl sed libero hendrerit, vitae varius magna fermentum. Suspendisse potenti. Cras suscipit dui eget sapien ornare, at vestibulum justo consectetur. Aenean dictum neque sed sapien elementum, ac volutpat risus scelerisque. Integer ut tincidunt nibh. In vulputate ultricies sem, et volutpat arcu gravida sed. Praesent efficitur purus in fringilla fermentum. Etiam posuere felis justo, id sodales ipsum scelerisque ac. Mauris laoreet, enim ut scelerisque volutpat, turpis nulla sagittis lorem, a cursus ligula sapien id lectus. Duis tristique felis eu orci aliquet, sed posuere sapien efficitur.",
-      "Ipsam quidem rem veritatis architecto, dignissimos quasi similique aliquid ex eaque numquam laboriosam, quis adipisci tempore molestias. Laudantium modi expedita ea magnam provident. Nostrum aliquam dolorem fuga atque est consequatur repellendus quas, vel ab, aperiam ad accusamus fugiat iste sunt distinctio. Culpa, voluptatibus ullam. Officia voluptatum dignissimos rerum nulla quod quas ipsum vitae adipisci alias, harum amet, eius reprehenderit pariatur. Cum omnis reprehenderit atque error est iure aliquam. Quisquam possimus hic, animi numquam. Iusto, assumenda nesciunt aperiam officiis ipsum vitae.",
+      "Ce projet a été pensé pour créer une application web permettant de suivre les incidents sur le réseau d'une entreprise. J'avais plusieurs rôles : chef de projet, développeur backend et frontend. L'application devait permettre aux techniciens de déclarer un problème réseau, et aux administrateurs de consulter, trier, et gérer ces incidents. J’ai organisé les différentes étapes du projet, réparti les tâches, et planifié les fonctionnalités. L’idée était d’avoir un outil simple à utiliser, pratique au quotidien pour une équipe informatique interne.",
+      "J’ai utilisé React.js pour créer l’interface, Node.js et Express.js pour gérer les échanges entre le site et la base de données, et MySQL pour stocker les tickets. Le style a été fait avec Tailwind CSS. Un système de connexion permettait de séparer l’espace admin et l’espace technicien. J’ai aussi commencé à tester Docker pour rendre l’installation plus simple plus tard. Même si ce projet reste en cours, il m’a permis d’apprendre à mieux structurer un vrai site avec plusieurs utilisateurs.",
+      "Ce projet m’a donné envie d’aller plus loin dans le développement web et de créer des outils vraiment utiles dans un contexte professionnel.",
     ],
-    description2: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet efficitur felis, eget tincidunt eros convallis sed. Integer volutpat mauris quis felis malesuada, at luctus arcu pretium. Nulla viverra feugiat eros vel consequat. Morbi gravida venenatis risus, at cursus erat euismod eget. Suspendisse potenti. Proin eu venenatis odio. Duis porttitor vestibulum libero, in auctor ligula. Nullam convallis orci a ligula pretium, at ultricies sem facilisis. Aenean fringilla ipsum ut arcu interdum luctus. Ut nec eros lorem. Donec ullamcorper vel lectus in vehicula. Phasellus ultricies nisi ut felis pharetra efficitur. Nullam non diam vitae lacus bibendum elementum. Phasellus vitae diam id elit commodo feugiat. Nulla euismod.",
-      "",
-    ],
+    pdf: undefined,
+    pdfThumbnail: undefined,
     size: "w-[10vw]",
     position: "md:justify-start",
     marginBottom: "mb-[10vh]",
@@ -120,38 +119,42 @@ const projects = [
     ],
   },
   {
-    // title: "Cisco Packet Tracer : Conception et Sécurisation d'un Réseau d'Entreprise",
-    title: "Cisco Packet Tracer Conception Et Securisation D'un Reseau",
-    alt: "Configurer un réseau d'entreprise virtuel sécurisé avec Cisco Packet Tracer, incluant des VLANs, des ACLs, et des routeurs",
+    // title: "Conception et Déploiement d'une Architecture Réseau d'Entreprise Multi-étages",
+    title: "Conception Et Deploiement D'une Architecture Reseau D'entreprise Multi-etages",
+    alt: "Conception et déploiement d'une infrastructure réseau complète pour un nouveau bâtiment d'entreprise avec Cisco Packet Tracer, incluant VLANs, routage, DHCP, PAT et sécurité",
     year: "2024",
-    roles: ["Chef de Projets", "Administrateur Réseau", "Analyste Sécurité", "Technicien Réseau"],
+    roles: ["Assistant Responsable Systèmes et Réseaux", "Architecte Réseau", "Administrateur Réseau", "Technicien Réseau"],
     technologies: [
-      "Cisco Packet Tracer",
-      "VLANs",
-      "ACLs",
-      "Routeurs Cisco",
-      "Firewall",
-      "Ping",
-      "Traceroute"
+        "Cisco Packet Tracer",
+        "VLANs",
+        "Routage Inter-VLAN",
+        "DHCP",
+        "PAT (Port Address Translation)",
+        "ACLs (Access Control Lists)",
+        "Routage Statique (Routes Primaires et Backup)",
+        "Sécurité Réseau (Firewall Conceptuel, Points d'Accès Sans Fil Sécurisés)",
+        "Commutateurs Cisco (L2, L3)",
+        "Routeurs Cisco",
+        "Points d'Accès Sans Fil (WLAN)",
+        "Câblage Structuré"
     ],
     github: undefined,
     website: undefined,
-    duration: "3 semaines",
+    duration: "1 mois",
     description1: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum.",
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor",
+        "En tant qu'assistant responsable Systèmes et Réseaux, j'ai eu pour mission de concevoir et de déployer l'infrastructure réseau interne d'un nouveau bâtiment d'entreprise de trois étages, intégrant six départements distincts et une salle serveurs, pour un total d'environ 612 utilisateurs et appareils.",
+        "Le projet a impliqué la planification détaillée de la topologie réseau, le choix judicieux des équipements (commutateurs L2/L3, routeurs), la mise en œuvre d'un plan d'adressage IP robuste, et un câblage structuré. J'ai segmenté le réseau par département via des VLANs, en assurant un routage inter-VLAN efficace. Un serveur DHCP a été configuré pour l'attribution dynamique des adresses IP, et le PAT (Port Address Translation) a été mis en place pour l'accès à internet.",
+        "La sécurité a été une priorité, avec la définition de routes statiques (incluant des routes primaires et de backup pour la résilience), la configuration d'ACLs pour contrôler les flux de communication, et la sécurisation des points d'accès sans fil. J'ai utilisé Cisco Packet Tracer pour simuler et valider l'ensemble de l'architecture, assurant ainsi la cohérence, la performance et la sécurité du réseau. Ce projet a consolidé mes compétences en architecture réseau complexe et en administration des systèmes, en réponse à des besoins d'entreprise concrets."
     ],
-    description2: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante",
-      "",
-    ],
+    pdf: "/docs/cisco-architecures-reseaux-entreprise.pdf",
+    pdfThumbnail: "/images/miniatures/cisco-architecures-reseaux-entreprise-page-015.jpg",
     size: "w-[20vw]",
     marginBottom: "mb-[20vh]",
     position: "md:justify-center",
     // padding: "translateX-[-8vw]",
     mainImage: CISCOMain,
     introImage: CISCOIntro,
-    imagesPortrait: [
+   /*  imagesPortrait: [
       { 
         image: CISCOMiddle1,
         alt: "PROJET3 IMAGE 1" 
@@ -166,7 +169,7 @@ const projects = [
         image: CISCOLandscape1,
         alt: "PROJET3 IMAGE 3",
       },
-    ],
+    ], */
   },
   {
     // title: "Système de Détection et Prévention d'intrusions",
@@ -191,15 +194,15 @@ const projects = [
     position: "md:justify-end",
     // padding: 'translateX-[10vw]',
     description1: [
-      "Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum.",
-      "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio",
+      "Ce projet consistait à mettre en place un système de détection et de prévention des intrusions sur le réseau d’une entreprise, afin d’assurer une meilleure sécurité face aux attaques potentielles. L’outil principal utilisé est Snort, qui permet d’analyser le trafic réseau pour détecter des comportements suspects. Une partie importante du projet a été la compréhension de la différence entre IDS et IPS, et comment Snort peut fonctionner dans les deux modes. Après avoir installé Snort sur un serveur Linux, j’ai configuré les règles adaptées à l’environnement réseau, en créant un compte de service dédié avec des permissions restreintes pour limiter les risques liés à l’exécution du logiciel.",
+      "J’ai également configuré la gestion des logs afin de centraliser et sécuriser les alertes générées par Snort, tout en automatisant certaines tâches avec des scripts Bash. Pour tester l’efficacité du système, j’ai utilisé des outils comme Nmap pour simuler des scans réseau, et Wireshark pour analyser les paquets et vérifier que Snort détectait correctement les intrusions. La configuration des règles et des permissions a été ajustée pour réduire les faux positifs et optimiser la sécurité globale du réseau. Ce projet m’a permis de mieux comprendre les mécanismes de surveillance réseau, ainsi que la gestion sécurisée d’un service critique en entreprise.",
+      "En conclusion, ce projet a été une excellente opportunité pour maîtriser les concepts d’IDS/IPS et leur mise en œuvre pratique via Snort. La capacité à configurer un système robuste de détection et prévention d’intrusions, avec un suivi précis des événements et une bonne gestion des droits, est essentielle pour garantir la protection des infrastructures réseau en entreprise.",
     ],
-    description2: [
-      "Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida",
-    ],
+    pdf: undefined,
+    pdfThumbnail: undefined,
     mainImage: SystemeMain,
     introImage: SystemeIntro,
-    imagesPortrait: [
+/*     imagesPortrait: [
       { 
         image: SystemeMiddle1,
         alt: "PROJET4 IMAGE1" 
@@ -214,7 +217,7 @@ const projects = [
         image: SystemeLandscape1,
         alt: "PROJET4 IMAGE3" 
       },
-    ],
+    ], */
   },
 ];
 
